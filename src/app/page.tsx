@@ -42,14 +42,14 @@ export default function Home() {
           <li>
             <span className='font-bold'>​​​7:45:</span> Reconvene and chat about
             what we read.
-            <li className='font-italic'>
-              (If you&apos;re in a groove, feel free to keep reading instead)
-              Leave when you want! Casa closes at 8:30pm.
-            </li>
+          </li>
+          <li className='font-italic'>
+            (If you&apos;re in a groove, feel free to keep reading instead)
+            Leave when you want! Casa closes at 8:30pm.
           </li>
         </ul>
       </div>
-      <div>
+      <div className='text-center'>
         <p>​​​Can&apos;t wait to see you there!</p>
         <p>​Cheers,</p>
         <p>​​Lincoln ☀️</p>
