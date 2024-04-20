@@ -5,28 +5,28 @@ export default function Home() {
         You&apos;re Invited to Bookless Bookclub! 📚
       </h1>
       <div className='text-gray-700 text-center space-y-4'>
-        <p className='text-gray-700 text-center'>
+        <p>
           ​​​Each <span className='font-bold'>Tuesday evening</span>, we gather
           the most curious and thoughtful people in Austin to read together and
           talk about it. All genres welcome!
         </p>
-        <p className='text-gray-700 text-center'>
+        <p>
           ​​​Bookless Bookclub isn&apos;t just about what you&apos;re reading.
           It&apos;s not even about a single book or genre. It&apos;s about
           creating connections around the topics you love.
         </p>
-        <p className='text-gray-700 text-center'>
+        <p>
           ​Bring whatever you want to read, in whatever format. It could be a
           book, a newspaper, a scientific article. It could even be a letter
           from your grandma. Shout out Nana!
         </p>
-        <p className=''>​Parking is across the street on Toomey Rd.</p>
+        <p>​Parking is across the street on Toomey Rd.</p>
 
         <ul className='list-none'>
           <p className='font-bold text-gray-700 text-center'>
             H​​​ere&apos;s the schedule:
           </p>
-          <li className='text-gray-700 text-center'>
+          <li>
             <span className='font-bold'>​​​6:20-6:30 pm:</span> Meet outside,
             get to know your neighbors.
           </li>
@@ -57,7 +57,11 @@ export default function Home() {
       <div className='text-gray-700 text-center'>
         <p>Location:</p>
         <b>
-          <a href='https://www.google.com/maps/search/?api=1&query=Casa%20de%20Luz%20Village&query_place_id=ChIJ8flvkhe1RIYRLQ4n--ovbts'>
+          <a
+            className='text-blue-600 hover:text-blue-800 no-underline hover:underline transition duration-200 ease-in-out'
+            href='https://www.google.com/maps/search/?api=1&query=Casa%20de%20Luz%20Village&query_place_id=ChIJ8flvkhe1RIYRLQ4n--ovbts'
+            target='_blank'
+          >
             Casa de Luz Village
           </a>
         </b>
